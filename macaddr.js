@@ -95,5 +95,6 @@ var all_addresses = function(cb) {
     find_addresses(respond);
 };
 
-exports.address = address;
-exports.all_addresses = all_addresses;
+// exports.address = address;
+// exports.all_addresses = all_addresses;
+module.exports = { address, all_addresses };
